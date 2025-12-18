@@ -1,9 +1,8 @@
 name: dingzhengfeng4532
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 3/6 * * *'
+    - cron: '34 0/6 * * *'
 
 jobs:
   build:
@@ -12,17 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: dingzhengfeng4532
         env:
-          m61: ${{ secrets.m61 }}
+          yoo195: ${{ secrets.yoo195 }}
         run: |
-          echo $m61 | jq -r .k76 | /bin/bash
-          echo $o70 | jq -r .tqvig117 | /bin/bash
-          echo $l2 | jq -r .zdh12 | /bin/bash
-          echo $jobkn908 | jq -r .qw80 | /bin/bash
-          echo $dcq71749 | jq -r .ptknd7137 | /bin/bash
-          echo $a6 | jq -r .pyang0 | /bin/bash
-          echo $qg81497 | jq -r .e107 | /bin/bash
-          echo $lt0 | jq -r .kcd58 | /bin/bash
-          echo $dsyrd3429 | jq -r .oqsf3 | /bin/bash
-          echo $vqo299 | jq -r .ztakz12 | /bin/bash
-          echo $sih1185 | jq -r .r0 | /bin/bash
+          echo $yoo195 | jq -r .av522 | /bin/bash
+          echo $flodu2 | jq -r .gujpa123 | /bin/bash
+          echo $gdq9605 | jq -r .nucco3 | /bin/bash
 
